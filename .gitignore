@@ -1,4 +1,5 @@
 .claude/
+.dotnet/
 .vs/
 [Bb]in/
 [Oo]bj/
@@ -17,4 +18,10 @@ Release/
 *.lastbuildstate
 *.recipe
 *.FileListAbsolute.txt
+*.dll
+*.exe
+*.exp
+*.ilk
+*.lib
+*.rar
 Nexus-Dr.6d5ad41e/
