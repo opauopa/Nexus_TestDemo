@@ -1,9 +1,54 @@
-# Nexus Test Demo
+# Nexus-Drv 震撼上市
 
-This repository is organized into a single root directory with three subdirectories:
+## 核心特性
 
-- `Nexus-Drv-TestDemo/`: C++ source project
-- `Nexus_E_Demo/`: E-language sample code
-- `Tools/`: text notes related to tools
+- 支持 Win10 - Win11 25H2 64 位系统版本
+- 驱动采用云编译混淆下发
+- 采用非常规隐蔽通信方式
+- 非常规鼠标移动方式，可过 `xf` / `apex` 屏蔽
+- 驱动为 `shellcode` 形式，完全无模块特征
+- 非常规映射方式，可绕过 `pte scan`（内核扫页）和 `nmi stack walk`（中断扫内核堆栈）
+- 支持 `AXE` / `BE` / `EAC` / `NP` 等主流反作弊，绕过玄武 / 磐石 / 预启动
 
-Build outputs, local cache directories, DLLs, archives, and user-specific files are excluded so the repository only contains source code and documentation.
+## 内存操作
+
+- 物理 / 刷页 / 附加读写
+- 内存申请、释放
+- `CR3` 解密读写（支持 `5E`、`apex`）
+
+## 注入操作
+
+- 远程线程 / 劫持线程 / `apc` 内核注入
+
+## 进程操作
+
+- 反调试、虚拟机 / 沙箱检测
+- 进程 `PPL` 保护
+- 反截图，过 `obs` 直播
+
+## 键鼠方面
+
+- 内核鼠标移动 / 按下 / 键盘操作（支持 `xf`、`apex`）
+
+## 文档与测试
+
+提供详细的 `C++` / `E` 调用文档以及测试 Demo，百万读写 `<2s`，可免费测试。
+
+## 价格说明
+
+### 点数卡
+
+- `1` 元 `1` 点
+- `200` 点起购
+- `500` 点 `400` 元
+- `800` 点 `600` 元
+- 点数计时规则：`1` 台电脑 `1` 天内登录只扣 `1` 点
+
+### 时间卡
+
+- `800` / 月（限制 `800` 同时在线人数）
+- `300` / 周（限制 `500` 同时在线人数）
+
+## 联系方式
+
+- 官方群：`2169067966`
